@@ -4,14 +4,24 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" type="text/css" href="style.css">
 
+<style>
+body {
+  background-image: url('https://w7.pngwing.com/pngs/225/555/png-transparent-starcraft-brood-war-starcraft-ii-heart-of-the-swarm-starcraft-remastered-starcraft-ii-wings-of-liberty-space-craft-miscellaneous-atmosphere-computer-wallpaper.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+</style>
+
 
 <body>
 
 <form action="action_page.php" method="post">
     <div class="imgContainer">
-        <img src="./images/AVATAR.png" alt="Avatar" class="avatar">
+        <img src="./images/anonymous.png" alt="anonymous" class="anonymous">
     </div>
-    <div class="container">
+    <div class="Login">
         <label for="user"><a>Username</a></label>
         <input type="text" placeholder="Enter Username" name="user" required> 
         <label for="psw"><a>Password</a></label>
@@ -20,9 +30,10 @@
         <label>
             <input type="checkbox" checked="checked" name="remember"> Remember me
         </label>
-
+        
         <div class="container" style="background-color:#C53B1E">
             <button type="button" class="cancelBtn">Cancel</button>
+            <span class="psw"> <a href="https://www.website.com/forgot-password/"> Forgot Password?</a></span>
         </div>
     </div>
 </form>
