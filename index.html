@@ -7,7 +7,25 @@
 
 <body>
 
-<form action=""></form>
+<form action="action_page.php" method="post">
+    <div class="imgContainer">
+        <img src="img_avatar.png" alt="Avatar" class="avatar">
+    </div>
+    <div class="container">
+        <label for="user"><a>Username</a></label>
+        <input type="text" placeholder="Enter Username" name="user" required> 
+        <label for="psw"><a>Password</a></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <button type="submit">Login</button>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+
+        <div class="container" style="background-color:#C53B1E">
+            <button type="button" class="cancelBtn">cancel</button>
+        </div>
+    </div>
+</form>
 
 </body>
 </html>
