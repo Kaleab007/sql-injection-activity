@@ -36,6 +36,13 @@ body {
             <span class="psw"> <a href="https://www.website.com/forgot-password/"> Forgot Password?</a></span>
         </div>
     </div>
+    <script>
+        if(document.location.hash === '#unauthorized') {
+            document.write('<div class="unauthorized">Invalid Username or Password</div>');
+        } else if(document.location.hash === '#error') {
+            document.write('<div class="error">An error has occured</div>');
+        }
+      </script>
 </form>
 
 </body>
